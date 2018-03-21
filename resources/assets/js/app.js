@@ -1,4 +1,3 @@
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -19,6 +18,7 @@ import Vue from 'vue' //引入vue
 import VueRouter from 'vue-router'//引入vue-router
 import ElementUI from 'element-ui';//引入element-ui
 import 'element-ui/lib/theme-chalk/index.css';
+
 Vue.use(VueRouter)//使用vue-router
 Vue.use(ElementUI)//使用element-ui
 
@@ -32,7 +32,7 @@ import JobTrain from "./page/JobTrain"//在线培训
 import JobSkill from "./page/JobSkill"//在线培训
 
 const router = new VueRouter({//定义路由
-    mode: 'history',
+    // mode: 'history',      //history模式去掉了# 但是需要配置后台
     routes: [
         {
             path: '/',
@@ -67,13 +67,13 @@ const router = new VueRouter({//定义路由
         {
             path: '/JobSkill',
             name: 'JobSkill',
-            component:JobSkill,
+            component: JobSkill,
         }
-        ],
+    ],
 });
 const app = new Vue({//实例化Vue
     el: '#app',
-    components: { App },
+    components: {App},
     router,
 });
 

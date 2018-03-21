@@ -1,22 +1,22 @@
 <template>
-    <div>
-        <el-container>
-            <el-header>
-                <Nav></Nav>
-            </el-header>
+    <!--<div class="container">-->
+    <el-container>
+        <el-header>
+            <Nav></Nav>
+        </el-header>
 
-            <el-main>
-                <router-view></router-view>
-            </el-main>
+        <el-main>
+            <router-view></router-view>
+        </el-main>
 
-            <el-footer>
-                <div class="Footer">
-                    <Footer></Footer>
-                </div>
-            </el-footer>
+        <el-footer>
+            <div class="Footer">
+                <Footer></Footer>
+            </div>
+        </el-footer>
 
-        </el-container>
-    </div>
+    </el-container>
+    <!--</div>-->
 </template>
 
 <script>
@@ -33,37 +33,25 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
+
+    .el-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
     .el-header {
-        padding: 15px 0px 80px 0px;
-        /*    background-color: #B3C0D1;
-        */
-        color: #333;
+        margin: 20px 0px 20px 0px;
 
     }
 
     .el-main {
-        /*    background-color: #E9EEF3;
-        */
-        color: #333;
-        text-align: center;
-        width: 100%;
-        height: 100%;
-    }
 
-    .el-container {
-        margin-bottom: 40px;
     }
 
     .el-footer {
-        padding: 50px 0px 0px 0px;
-        /*  background-color: #B3C0D1;
-        */
-        color: #333;
+        margin-top: 100px;
     }
 
-    .Footer {
-        padding-left: 150px;
-        padding-right: 150px;
-    }
+
 </style>

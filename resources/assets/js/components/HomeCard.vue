@@ -1,16 +1,14 @@
 <template>
 
-
-            <el-card class="box-card">
-                <h2>
-                    {{msg.title}}
-                </h2>
-                <span>
+    <el-card class="box-card">
+        <h2>
+            {{msg.title}}
+        </h2>
+        <span>
         {{msg.intro}}
       </span>
-                <img v-bind:src="msg.photoAdress" alt="photo">
-            </el-card>
-
+        <img  v-bind:src="msg.photoAdress" alt="photo">
+    </el-card>
 
 
 </template>

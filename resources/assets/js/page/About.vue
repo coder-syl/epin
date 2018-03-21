@@ -30,13 +30,10 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
     .develop {
-        padding-left: 127px;
-        padding-right: 150px;
+
     }
 
     .comIntro {
         padding-top: 100px;
-        padding-left: 230px;
-        padding-right: 150px;
     }
 </style>

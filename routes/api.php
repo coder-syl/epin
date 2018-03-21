@@ -13,6 +13,14 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+//Route::middleware('auth:api')->get('/user', function (Request $request) {
+//    return $request->user();
+//});
+//Route::group(['prefix' => '/analyse', 'namespace' => 'Api\Analyse', 'as' => 'api.'], function () {
+//    Route::resource('analyseData', 'SpiderStatusController', ['except' => ['create', 'edit']]);
+//});
+//Route::get('analyseData',function (){
+//    return 'q';
+//});
+Route::get('analyseData','Api\Analyse\SpiderStatusController@index');
+Route::get('onlineJob','Api\Recruit\OnlineJobController@index');

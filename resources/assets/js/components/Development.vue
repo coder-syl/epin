@@ -1,16 +1,38 @@
 <template>
 
-        <el-steps :active="1" align-center>
-            <el-step title="step 1" description="2017 公司成立"></el-step>
-            <el-step title="step 2" description="暂无时间节点"></el-step>
-            <el-step title="step 3" description="暂无时间节点"></el-step>
-            <el-step title="step 4" description="暂无时间节点"></el-step>
-        </el-steps>
+    <el-steps :active="1" align-center>
+
+        <el-step v-for="development in developments" :key="development" :title="development.title"
+                 :description="development.des"></el-step>
+
+    </el-steps>
 
 </template>
 <script>
     export default {
         name: "Development",
+        data() {
+            return {
+                developments: [
+                    {
+                        title: "step 1",
+                        des: "2017 公司成立"
+                    },
+                    {
+                        title: "step 2",
+                        des: "暂无时间节点"
+                    },
+                    {
+                        title: "step 3",
+                        des: "暂无时间节点"
+                    },
+                    {
+                        title: "step 4",
+                        des: "暂无时间节点"
+                    }
+                ]
+            }
+        }
     }
 </script>
 <style scoped>

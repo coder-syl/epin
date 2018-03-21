@@ -1,13 +1,25 @@
 <template>
-    <h1>在线培训</h1>
+    <div class="jobtrain">
+        <course-carousel></course-carousel>
+        <course-tabs></course-tabs>
+    </div>
 </template>
 
 <script>
+    import CourseCarousel from "./../components/CourseCarousel"
+    import CourseTabs from './../components/CourseTabs'
+
     export default {
-        name: "online-train"
+        name: "online-train",
+        components: {
+            CourseCarousel,
+            CourseTabs
+        }
     }
 </script>
 
 <style scoped>
+    .jobtrain {
 
+    }
 </style>
