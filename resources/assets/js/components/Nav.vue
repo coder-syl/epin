@@ -30,9 +30,9 @@
                 <router-link to="/about">关于我们</router-link>
             </el-menu-item>
 
-            <el-menu-item style="float:right;">
-                <router-link to="#">个人中心</router-link>
-            </el-menu-item>
+            <!--<el-menu-item style="float:right;">-->
+                <!--<router-link to="#">个人中心</router-link>-->
+            <!--</el-menu-item>-->
 
         </el-menu>
     </div>

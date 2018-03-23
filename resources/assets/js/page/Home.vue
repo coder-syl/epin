@@ -1,7 +1,7 @@
 <template>
     <div class="homeClass">
 
-        <HomeCard v-for="msg in msgs" :key="msg"></HomeCard>
+        <home-card v-for="msg in msgs" :msg="msg" :key="msg.title" ></home-card>
 
     </div>
 </template>

@@ -7,7 +7,7 @@
         <span>
         {{msg.intro}}
       </span>
-        <img  v-bind:src="msg.photoAdress" alt="photo">
+        <img v-bind:src="msg.photoAdress" alt="photo">
     </el-card>
 
 

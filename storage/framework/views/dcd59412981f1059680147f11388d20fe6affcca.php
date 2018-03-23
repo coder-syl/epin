@@ -7,8 +7,8 @@
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>" />
     <title>epin</title>
 </head>
-<body>
-<div id="app">
+<body >
+<div id="app" >
     <app></app>
 </div>
 
