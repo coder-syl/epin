@@ -1,0 +1,334 @@
+li {
+    display: list-item;
+    list-style: none;
+}
+.jobs_list_div .job_list_ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.jobs_list_div .job_list_ul .job_list_li {
+    position: relative;
+    color: #555;
+    border: 1px solid #ededed;
+    margin-buttom: 18px;
+    height: 124px;
+}
+
+.jobs_list_div .job_list_ul .job_list_li .job_list_top {
+    width: 928px;
+    height: 68px;
+    padding: 14px 15px 0;
+}
+
+.jobs_list_div .job_list_ul .job_list_li .job_list_top .job_list_l {
+    float: left;
+    width: 528px;
+    margin-right: 20px;
+}
+
+.job_list_top .job_list_l .jobs_t {
+    height: 34px;
+    line-height: 34px;
+}
+
+.job_list_top .job_list_l .jobs_t h3 {
+    float: left;
+    margin: 0;
+    color: #409EFF;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    max-width: 272px;
+}
+
+h1, h2, h3, h4 {
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+h3 {
+    display: block;
+}
+
+.job_list_top .job_list_l .jobs_t .address {
+    color: #409EFF;
+    font-size: 14px;
+}
+
+.job_list_top .job_list_l .jobs_t span {
+    float: left;
+    margin: 0 3px;
+}
+
+em, i {
+    font-style: normal;
+}
+
+.job_list_top .job_list_l .jobs_t .times {
+    float: left;
+    color: #999;
+    margin: 0 3px;
+    font-size: 14px;
+}
+
+.chat_me {
+    display: inline-block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background: url(https://www.lgstatic.com/www/static/search-result/modules/positions/img/icon-chat_4a70ffc.png) no-repeat 0 0;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+.jobs_list_div .job_list_top .job_list_l .jobs_b {
+    height: 24px;
+    line-height: 24px;
+}
+
+.jobs_list_div .job_list_top .job_list_l .jobs_b .job_b_money {
+    font-size: 13px;
+    color: #555;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.job_b_money .money {
+    color: #fd5f39;
+    margin-right: 16px;
+    font-size: 14px;
+}
+
+.jobs_list_div .job_list_top .job_list_cen {
+    float: left;
+    width: 303px;
+    margin-right: 15px;
+}
+
+.jobs_list_div .job_list_top .job_list_cen .companys {
+    height: 34px;
+    line-height: 34px;
+}
+
+.jobs_list_div .job_list_top .job_list_cen .companys a {
+    color: #409EFF;
+    font-size: 14px;
+    display: inline-block;
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    vertical-align: middle;
+}
+
+.jobs_list_div .job_list_top .job_list_cen .companys .company_lo {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    margin-left: .5em;
+    background: url(../../imgs/approve.png) no-repeat 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.jobs_list_div .job_list_top .job_list_cen .companys .company_lo span {
+    display: none;
+    position: absolute;
+    top: 26px;
+    left: -15px;
+    padding: 10px 12px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #777;
+    white-space: nowrap;
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 4px 4px 4px #f2f2f2;
+}
+
+.jobs_list_div .job_list_top .job_list_cen .companys i:hover span {
+    display: block;
+}
+
+.jobs_list_div .job_list_top .job_list_cen .lingyu {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    font-size: 13px;
+}
+
+.jobs_list_div .job_list_top .job_list_r {
+    float: left;
+    width: 62px;
+}
+
+.jobs_list_div .job_list_top .job_list_r a {
+    display: block;
+}
+
+.jobs_list_div .job_list_top .job_list_r a img {
+    display: block;
+    border: 1px solid #f5f5f5;
+}
+
+.jobs_list_div .job_list_bottom {
+    width: 928px;
+    height: 40px;
+    padding: 0 15px;
+    background-color: #fafafa;
+}
+
+.jobs_list_div .job_list_bottom .job_list_type {
+    width: 528px;
+    height: 40px;
+    float: left;
+    margin-right: 20px;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.jobs_list_div .job_list_bottom .job_list_type span {
+    border: 1px solid #dcdcdc;
+    font-size: 12px;
+    line-height: 20px;
+    color: #555;
+    border-radius: 3px;
+    display: inline-block;
+    max-width: 108px;
+    height: 20px;
+    padding: 0 5px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.jobs_list_div .job_list_bottom .job_company_r {
+    float: left;
+    width: 380px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    font-size: 13px;
+}
+
+.jobs_list_div .recommend {
+    display: block;
+    height: 70px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 23px;
+    margin-bottom: 10px;
+}
+
+.jobs_list_div .recommend .recommend_com {
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 12px;
+}
+
+.jobs_list_div .recommend .recommend_com_ul {
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    zoom: 1;
+}
+
+.jobs_list_div .recommend .recommend_com_ul li {
+    float: left;
+    margin-right: 40px;
+    height: 22px;
+    line-height: 22px;
+    color: #00b38a;
+    text-decoration: underline;
+    cursor: pointer;
+    display: list-item;
+}
+
+.jobs_list_div .recommend .recommend_com_ul li a {
+    color: #00b38a;
+}
+
+.jobs_list_div .recommend .expansion {
+    position: absolute;
+    top: 69px;
+    right: 8px;
+    color: #999;
+    margin-left: 2px;
+}
+
+.jobs_list_div .recommend .expansion i {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    margin-left: 2px;
+    background: url(../../imgs/arrow_down.png) 0 0 no-repeat;
+}
+
+.jobs_list_div .list_pager {
+    text-align: center;
+    he: 50px;
+    margin-top: 36px;
+}
+
+.jobs_list_div .list_pager .pagers span:first-child {
+    margin: 0 5px 0 0;
+}
+
+.jobs_list_div .list_pager .pagers .pager_1, .pager_1_1 {
+    color: silver !important;
+    cursor: default !important;
+}
+
+.jobs_list_div .list_pager .pagers span {
+    cursor: pointer;
+    color: #555;
+    display: inline-block;
+    border: 1px solid #ededed;
+    height: 21px;
+    line-height: 21px;
+    padding: 3px 10px;
+    margin: 0 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+strong {
+    font-weight: 400;
+}
+
+.jobs_list_div .list_pager .pagers .pager_2 {
+    background: #409EFF;
+    color: #FFF;
+    font-weight: 700;
+    border-color: #409EFF;
+}
+
+.jobs_list_div .list_pager .pagers span:not(.pager_1):hover {
+    background: #409EFF;
+    color: #FFF;
+    text-decoration: none;
+    border-color: #409EFF;
+}

@@ -24,3 +24,8 @@ use Illuminate\Http\Request;
 //});
 Route::get('analyseData','Api\Analyse\SpiderStatusController@index');
 Route::get('onlineJob','Api\Recruit\OnlineJobController@index');
+Route::get('positionList/{tag}','Api\Recruit\PositionListController@index');
+Route::post('personalRegister','Api\PersonalUser\PersonalUserController@register');
+Route::get('checkLogin','Api\PersonalUser\PersonalUserController@checkLogin');
+Route::post('addBaseInfo','Api\PersonalUser\PersonalUserController@addBaseInfo');
+Route::get('courseClass','Api\OnlineTrain\CourseClassController@index');

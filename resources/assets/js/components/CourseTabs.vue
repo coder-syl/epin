@@ -4,7 +4,7 @@
 
             <el-tab-pane :label="course1" name="first">
                 <a href="#" class="imgcard" v-for="i in  5">
-                    <img src="./../static/intro2.jpg" style="width:220px ; height:150px;"/>
+                    <img src="../static/imgs/intro2.jpg" style="width:220px ; height:150px;"/>
                     <div class="container">
                         <p>java从入门到精通</p>
                     </div>
@@ -13,7 +13,7 @@
 
             <el-tab-pane :label="course2" name="second">
                 <a href="#" class="imgcard" v-for="i in  5">
-                    <img src="./../static/intro1.jpg" style="width:220px ; height:150px;"/>
+                    <img src="../static/imgs/intro1.jpg" style="width:220px ; height:150px;"/>
                     <div class="container">
                         <p>java从入门到精通</p>
                     </div>
@@ -22,7 +22,7 @@
 
             <el-tab-pane :label="course3" name="third">
                 <a href="#" class="imgcard" v-for="i in  5">
-                    <img src="./../static/intro3.jpg" style="width:220px ; height:150px;"/>
+                    <img src="../static/imgs/intro3.jpg" style="width:220px ; height:150px;"/>
                     <div class="container">
                         <p>java从入门到精通</p>
                     </div>
@@ -31,7 +31,7 @@
 
             <el-tab-pane :label="course4" name="fourth">
                 <a href="#" class="imgcard" v-for="i in  5">
-                    <img src="./../static/intro2.jpg" style="width:220px ; height:150px;"/>
+                    <img src="../static/imgs/intro2.jpg" style="width:220px ; height:150px;"/>
                     <div class="container">
                         <p>java从入门到精通</p>
                     </div>

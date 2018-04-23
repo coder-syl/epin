@@ -7,8 +7,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <title>epin</title>
 </head>
-<body >
-<div id="app" >
+<body  >
+<div   id="app" >
     <app></app>
 </div>
 

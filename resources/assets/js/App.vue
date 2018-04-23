@@ -1,27 +1,27 @@
+<!---->
 <template>
-    <!--<div class="container">-->
-    <el-container>
-        <el-header>
-            <Nav></Nav>
-        </el-header>
+    <el-container >
+        <!--<el-header>-->
+            <!--<Nav></Nav>-->
+        <!--</el-header>-->
 
-        <el-main>
+        <!--<el-main>-->
             <router-view></router-view>
-        </el-main>
+        <!--</el-main>-->
 
-        <el-footer>
-            <div class="Footer">
-                <Footer></Footer>
-            </div>
-        </el-footer>
+        <!--<el-footer>-->
+            <!--<div class="Footer">-->
+                <!--<Footer></Footer>-->
+            <!--</div>-->
+        <!--</el-footer>-->
 
-    </el-container>
-    <!--</div>-->
+        </el-container>
 </template>
 
 <script>
-    import Nav from "./components/Nav.vue"
-    import Footer from "./components/Footer.vue"
+    import Nav from "./components/share/Nav.vue"
+    import Footer from "./components/share/Footer.vue"
+
 
     export default {
         components: {
@@ -32,26 +32,25 @@
     }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 
     .el-container {
-        width: 90%;
-        margin: 0 auto;
+        height:100%;
+        width:100%;
+        /*margin: 0 auto;*/
     }
 
-    .el-header {
-        margin: 20px 0px 20px 0px;
+    /*.el-header {*/
+        /*margin: 20px 0px 10px 0px;*/
 
-    }
+    /*}*/
 
-    .el-main {
+    /*.el-main {*/
+        /*width:90%;*/
+        /*margin:auto;*/
+    /*}*/
 
-    }
-
-    .el-footer {
-        margin-top: 100px;
-    }
-
-
+    /*.el-footer {*/
+        /*margin-top: 100px;*/
+    /*}*/
 </style>
